@@ -18,7 +18,7 @@ class Bank {
     console.log({ balance: this.balance });
   }
 }
-const userChecking = new Bank(200);
+const userChecking = new Bank(0);
 console.log(userChecking.balance);
 
 const depositButton = document.getElementById("deposit");
